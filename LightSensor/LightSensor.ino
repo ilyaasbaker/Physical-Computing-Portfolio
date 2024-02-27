@@ -30,11 +30,11 @@
 
 int ldrPin = A0;              // LDR pin
 int ldrVal = 0;               // Value of LDR
-int ledPin = LED_BUILTIN;     // Build in LED pin
+int ledPin = 3;     // Build in LED pin
 
 void setup() {
   Serial.begin(9600);         // Initialise the serial monitor
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(3, OUTPUT);
 }
 
 void loop() {
